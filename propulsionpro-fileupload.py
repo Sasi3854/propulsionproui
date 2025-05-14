@@ -94,7 +94,7 @@ if st.button("Upload File", disabled=upload_button_disabled):
         file_name = uploaded_file.name
         file_type, _ = mimetypes.guess_type(file_name)
         file_type = file_type or 'application/octet-stream'
-        combined_metadata["document_name"] = os.path.basename(file_name).split(".")[0]
+        combined_metadata["document_name"] = os.path.basename(file_name)
         st.info("Requesting pre-signed URL...")
 
         # Prepare payload
