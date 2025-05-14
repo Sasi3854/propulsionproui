@@ -21,7 +21,7 @@ dropdown_metadata_options = {
     "engine_model": ["C370","STARTAIR LT7-30  460/60","STARTAIR LT5-30","H-73","AHW-60A","AHV-30","AHV-20","VLH-43","H-74"
                      "LT-22-30","L9","L 20","LT-55-30-KE","WP15L","WP33L"],
     "person": ["Anand", "Tarun", "Sasi", "Vijay", "Uttam", "Others"],
-    "info_type": ["Manuals", "Service Letters", "FMECA"]
+    "info_type": ["Manual", "Service_Letter", "FMECA"]
 }
 
 # Textbox Metadata with validation rules
